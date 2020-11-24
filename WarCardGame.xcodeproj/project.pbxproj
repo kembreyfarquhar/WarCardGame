@@ -13,6 +13,8 @@
 		047687CC256C2AAD005ABF79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047687CA256C2AAD005ABF79 /* Main.storyboard */; };
 		047687CE256C2AB2005ABF79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047687CD256C2AB2005ABF79 /* Assets.xcassets */; };
 		047687D1256C2AB2005ABF79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047687CF256C2AB2005ABF79 /* LaunchScreen.storyboard */; };
+		047687DB256C5156005ABF79 /* ChangeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047687DA256C5156005ABF79 /* ChangeCard.swift */; };
+		047687E6256CA2BE005ABF79 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047687E5256CA2BE005ABF79 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		047687CD256C2AB2005ABF79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047687D0256C2AB2005ABF79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047687D2256C2AB2005ABF79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047687DA256C5156005ABF79 /* ChangeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCard.swift; sourceTree = "<group>"; };
+		047687E5256CA2BE005ABF79 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		047687C3256C2AAD005ABF79 /* WarCardGame */ = {
 			isa = PBXGroup;
 			children = (
+				047687D9256C50AF005ABF79 /* Enums */,
 				047687C4256C2AAD005ABF79 /* AppDelegate.swift */,
 				047687C6256C2AAD005ABF79 /* SceneDelegate.swift */,
 				047687C8256C2AAD005ABF79 /* ViewController.swift */,
@@ -63,8 +68,17 @@
 				047687CD256C2AB2005ABF79 /* Assets.xcassets */,
 				047687CF256C2AB2005ABF79 /* LaunchScreen.storyboard */,
 				047687D2256C2AB2005ABF79 /* Info.plist */,
+				047687E5256CA2BE005ABF79 /* RoundedButton.swift */,
 			);
 			path = WarCardGame;
+			sourceTree = "<group>";
+		};
+		047687D9256C50AF005ABF79 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				047687DA256C5156005ABF79 /* ChangeCard.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				047687C9256C2AAD005ABF79 /* ViewController.swift in Sources */,
+				047687E6256CA2BE005ABF79 /* RoundedButton.swift in Sources */,
 				047687C5256C2AAD005ABF79 /* AppDelegate.swift in Sources */,
 				047687C7256C2AAD005ABF79 /* SceneDelegate.swift in Sources */,
+				047687DB256C5156005ABF79 /* ChangeCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
